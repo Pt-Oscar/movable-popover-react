@@ -12,7 +12,7 @@ IMPORTANT: install react-draggable component for this npm package
 
 ```bash
 npm install movable-popover-react react-draggable
-Please install the latest version 2.0.0 it resolve the issues i have with webpack
+Please install the latest version 2.0.1 it resolve the issues i have with webpack
 ```
 
 ## Usage

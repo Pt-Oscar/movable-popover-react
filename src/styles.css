@@ -1,0 +1,63 @@
+.animated-moveto-left {
+    visibility: visible;
+    animation: runLeft .5s forwards 100ms;
+  }
+  
+  .animated-moveto-right {
+    visibility: visible;
+    animation: runRight .5s forwards 100ms;
+  }
+  
+  .animated-moveto-up {
+    visibility: visible;
+    animation: runUp .5s forwards 100ms;
+  }
+  
+  .animated-moveto-down {
+    visibility: visible;
+    animation: runDown .5s forwards 100ms;
+  }
+  
+  @-webkit-keyframes runLeft {
+    0% { right: 100px;}
+    100%{ right: 300px;}
+  
+  }
+  
+  @keyframes runLeft {
+    0% { right: 100px;}
+    100%{ right: 300px;} 
+  }
+  
+  @-webkit-keyframes runRight {
+    0% { right: 100px;}
+    100%{ right: -300px;}
+  
+  }
+  
+  @keyframes runRight {
+    0% { right: 100px;}
+    100%{ right: -300px;} 
+  }
+  
+  @-webkit-keyframes runUp {
+    0% { top: 100px;}
+    100%{ top: -150px;}
+  
+  }
+  
+  @keyframes runUp {
+    0% { top: 100px;}
+    100%{ top: -150px;} 
+  }
+  
+  @-webkit-keyframes runDown {
+    0% { top: 100px;}
+    100%{ top: 210px;}
+  
+  }
+  
+  @keyframes runDown {
+    0% { top: 100px;}
+    100%{ top: 210px;} 
+  }

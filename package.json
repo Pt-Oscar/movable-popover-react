@@ -1,6 +1,6 @@
 {
     "name": "movable-popover-react",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "movable popover react",
     "main": "./lib/MovablePopover.js",
     "license": "MIT",
@@ -34,5 +34,12 @@
     },
     "dependencies": {
         "react-draggable": "^4.4.3"
-    }
+    },
+    "keywords": [
+        "movable",
+        "popover",
+        "react",
+        "fixed",
+        "position"
+      ]
 }
